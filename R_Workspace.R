@@ -21,10 +21,10 @@ write.precip(data_eobs,'Precip_eobs.dat',start.time='02.01.1980 00:00:00'
 write.precip(data_dwd,'Precip_dwd.dat',start.time='02.01.1980 00:00:00'
              ,time.unit='s',faktor.p = 1.157407408e-08)
 
-write.printout(output.file = "printout_2010_16.prt",
-               start.time = "01.01.2010 00:00:00",
+write.printout(output.file = "printout_2016.prt",
+               start.time = "01.01.2016 00:00:00",
                end.time = "31.12.2016 00:00:00",
-               intervall = 10, time.unit = "d",
+               intervall = 10, time.unit = "h",
                flag = 1)
 
 # Reading Output Files

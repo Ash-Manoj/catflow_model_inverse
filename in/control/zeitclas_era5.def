@@ -21,4 +21,4 @@ in/landuse/landuse_start.def            %  Landnutzungszeitreihe
 
 KLIMA
 1
-in/climate/evap_lstm.dat
+in/climate/evap_era5.dat

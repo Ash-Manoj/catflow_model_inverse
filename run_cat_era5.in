@@ -1,5 +1,5 @@
 01.01.2016 00:00:00.00         % Begin Simulation                                                
-20.06.2016 00:00:00.00         % End   Simulation                                                    
+31.12.2016 00:00:00.00         % End   Simulation                                                    
         0.0                    % Zeit Offset                                              
 pic                            % Berechnungsverfahren (exp, adi, apk, bcg, pic, mix)      
       3600.                     % dtbach [s]                                               
@@ -53,6 +53,6 @@ in/soil/thsmult0.dat             % multiplication factor for theta
 in/soil/mac_none.dat              % fmac 
 in/control/cont_vol.dat         % control volume Sensitivity
 in/soil/rel_sat_ERA5.ini  
-in/control/printout_2010_16.prt       % printout file
+in/control/printout_2016.prt       % printout file
 in/landuse/surf_1.pob           % parameters for the surface nodes
 in/control/boundary.dat         % boundary conditions                                                  
