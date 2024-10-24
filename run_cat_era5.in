@@ -1,5 +1,5 @@
-01.01.2010 00:00:00.00         % Begin Simulation                                                
-12.31.2016 00:00:00.00         % End   Simulation                                                    
+01.01.2016 00:00:00.00         % Begin Simulation                                                
+20.06.2016 00:00:00.00         % End   Simulation                                                    
         0.0                    % Zeit Offset                                              
 pic                            % Berechnungsverfahren (exp, adi, apk, bcg, pic, mix)      
       3600.                     % dtbach [s]                                               

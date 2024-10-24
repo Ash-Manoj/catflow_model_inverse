@@ -20,8 +20,8 @@
   Oeffne Eingabedatei   in/control/zeitclas_era5.def   (Unit: 56)
   Oeffne Eingabedatei   in/landuse/landuseclass.def    (Unit: 57)
   Oeffne Eingabedatei   in/climate/winddir.def         (Unit: 58)
-  Start: 01.01.2010 00:00:00.00
-  Ende:  12.31.2016 00:00:00.00   d.h. **************** [s]
+  Start: 01.01.2016 00:00:00.00
+  Ende:  20.06.2016 00:00:00.00   d.h.        14774400. [s]
  t_off      0.000000000000000E+000
  dtbach      3600.00000000000     
  qtol       5.000000000000000E-007
@@ -58,7 +58,11 @@
   Oeffne Eingabedatei   in/landuse/landuse_id.def      (Unit: 15)
   Oeffne Eingabedatei   in/soil/mac_none.dat           (Unit: 30)
 
-Daten einlesen:          1.0 sec
+Daten einlesen:          0.0 sec
 
 Berechnungsmethode:      pic
 -------------------------------------------------------------------------
+Genauigkeit nicht erreicht: Hang   1, Zeit 130.00 Tage, rsq, rel_ab   0.1078E-02  0.3460E+02
+ abbruch= T
+Genauigkeit nicht erreicht: Hang   1, Zeit 132.00 Tage, rsq, rel_ab   0.3767E-02  0.1562E+02
+ abbruch= T

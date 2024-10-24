@@ -1,2 +1,7 @@
 Hg.;Zeitschritt;Zeit;totale Bil.;Auffeuchtung; Summe Senkenfl.;  Summe Randfl; kumul. Oberrandfl.;kumul. rechter.Randfl.;kumul. Unterrandfl.; kumul.linker Randfl.;kumul. Oberfl. Abfl.;Abfl.-Beiwert; kumul. Freiland Nied.;kumul. Freiland Nied.;kumul.Interz-Verd.; kumul. Bodenverd.;kumul. Transpiration;links: kumul. Verlust Stoff1; unten: kumul. Verlust Stoff1;  rechts: kumul. Verlust Stoff1;links: kumul. Verlust Stoff2; unten: kumul. Verlust Stoff2;   rechts: kumul. Verlust Stoff2;links: kumul. Verlust Stoff3; unten: kumul. Verlust Stoff3;   rechts: kumul. Verlust Stoff3;
 [-];[-];[s];[-];[cbm];[cbm];[cbm];[cbm];[cbm];[cbm];[cbm];[cbm];[-];[cbm];[mm];[cbm];[cbm];[cbm]; [kg]; [kg]; [kg]; [kg]; [kg]; [kg]; [kg]; [kg]; [kg];
+
+Abschlusstabelle mit Bilanzgroessen der  Kontrollvolumina
+Kontrollvolumen; ; ; ;Volumen;totale Bilanz;Auffeuchtung;  Summe Senkenfl.;Summe Randfl.;Oberrandfl.;kumul. rechter Randfl; kumul. Unterrandfl.;kumul. linker Randfl;kumul. Freiland Nied.; kumul. Freiland Nied.;kumul. Interz-Verd;kumul. Bodenverd.; kumul. Transpiration
+Hang;    1
+   1;  15;   1; 501;   0.112E+08;   0.665E+05;  -0.533E+06;  -0.503E+06;  -0.958E+05;   0.231E+07;   0.000E+00;  -0.241E+07;   0.000E+00;   0.322E+07;   0.575E+03;   0.000E+00;   0.109E+07;   0.466E+06

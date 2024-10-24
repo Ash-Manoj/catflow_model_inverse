@@ -11,8 +11,21 @@ data_lstm = zoo(testde_3$testde_2, order.by = as.Date(testde_3$date))
 data_eobs = zoo(testde_3$eobs, order.by = as.Date(testde_3$date))
 data_dwd = zoo(testde_3$Daily_Precipitation, order.by = as.Date(testde_3$date))
 
-write.precip(data_era5,'Precip_era5.dat',start.time='02.01.1980 00:00:00.00'
-             ,time.unit='d',faktor.p = 1)
+options(scipen = 999)
+write.precip(data_era5,'Precip_era5.dat',start.time='02.01.1980 00:00:00'
+             ,time.unit='s',faktor.p = 1)
+write.precip(data_lstm,'Precip_lstm.dat',start.time='02.01.1980 00:00:00'
+             ,time.unit='s',faktor.p = 1.157407408e-08)
+write.precip(data_eobs,'Precip_eobs.dat',start.time='02.01.1980 00:00:00'
+             ,time.unit='s',faktor.p = 1.157407408e-08)
+write.precip(data_dwd,'Precip_dwd.dat',start.time='02.01.1980 00:00:00'
+             ,time.unit='s',faktor.p = 1.157407408e-08)
+
+write.printout(output.file = "printout_2010_16.prt",
+               start.time = "01.01.2010 00:00:00",
+               end.time = "31.12.2016 00:00:00",
+               intervall = 10, time.unit = "d",
+               flag = 1)
 
 # Reading Output Files
 setwd("C:/Users/ashish/bwSyncShare/01_Analysis/01_Krebsbach_Reservoir/W22/CATFLOW")
