@@ -58,7 +58,7 @@
   Oeffne Eingabedatei   in/landuse/landuse_id.def      (Unit: 15)
   Oeffne Eingabedatei   in/soil/mac_none.dat           (Unit: 30)
 
-Daten einlesen:          0.0 sec
+Daten einlesen:          3.0 sec
 
 Berechnungsmethode:      pic
 -------------------------------------------------------------------------
